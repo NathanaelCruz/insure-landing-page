@@ -11,3 +11,8 @@
     width: 55%;
     font-size: 1.8rem;
 }
+
+.header__menuButton--mobile:active,
+.header__menuButton--mobile:focus {
+    border: 0;
+}

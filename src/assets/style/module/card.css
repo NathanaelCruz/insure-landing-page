@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.card__imageContent {
+    margin-bottom: 2.5rem;
+}
+
+.card__title {
+    margin-bottom: 2rem;
+    color: hsl(270, 9%, 17%);
+}
+
+.card__text {
+    font-size: 1.5rem;
+    text-align: center;
+    color: hsl(273, 4%, 51%);
+}

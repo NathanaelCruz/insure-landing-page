@@ -70,3 +70,25 @@
     font-size: 3rem;
     font-weight: 700;
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+    margin-top: 8rem;
+}
+
+.cards__title {
+    text-align: center;
+    color: hsl(270, 9%, 17%);
+}
+
+.cards__line {
+    height: 1px;
+    width: 45%;
+    background-color: hsl(273, 4%, 51%);
+    border: 0;
+    margin-bottom: 3rem;
+}

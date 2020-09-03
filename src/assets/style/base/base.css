@@ -53,8 +53,14 @@ button {
     border: 0;
 }
 
-h1 {
+h1,
+h2 {
     font: 400 3.8rem 'DM Serif Display';
+}
+
+h4 {
+    font: 400 2.5rem 'DM Serif Display';
+    text-align: center;
 }
 
 ul {
