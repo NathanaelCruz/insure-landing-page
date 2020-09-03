@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/style/style.css'
 import Navigation from './components/navigation';
+import Landing from './pages/landing/landing';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         ]}
         titleButton="VIEW PLANS"
       />
+      <Landing />
     </div>
   );
 }

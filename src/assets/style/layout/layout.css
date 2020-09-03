@@ -1,9 +1,9 @@
 .header__navigation {
     background-color: #fff;
     width: 100vw;
-    padding: 2rem 3rem;
-    z-index: 50;
     position: fixed;
+    top: 0;
+    z-index: 5;
 }
 
 .header__navigationContent {
@@ -34,21 +34,39 @@
 }
 
 .header__button {
-    padding: 0.5rem 1rem;
+    padding: 1.2rem 1rem;
 }
 
 .header__menuNavigation {
     background-color: hsl(270, 9%, 17%);
     display: flex;
     flex-direction: column;
-    height: 0;
     width: 100vw;
-    visibility: hidden;
     overflow: hidden;
     position: fixed;
-    margin-top: 12vh;
     top: 0;
     left: 0;
-    padding-top: 10rem;
+    padding-top: 12rem;
     z-index: 10;
+    justify-content: space-between
+}
+
+.header__navigationContentLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 30;
+    background-color: #fff;
+    padding: 2rem 3rem;
+}
+
+.header__menuListItem {
+    margin-bottom: 3rem;
+}
+
+.header__linkList {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
 }

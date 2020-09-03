@@ -1,0 +1,13 @@
+.button__default {
+    color: hsl(0, 0%, 98%);
+    border: 0.3rem solid hsl(0, 0%, 98%);
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.button__banner {
+    width: 55%;
+    font-size: 1.8rem;
+}

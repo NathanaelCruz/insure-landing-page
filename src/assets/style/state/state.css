@@ -1,3 +1,22 @@
 button:hover {
     cursor: pointer;
 }
+
+.header_menu--hidden {
+    height: 0vh;
+    visibility: hidden;
+}
+
+.header_menu--active {
+    height: 100vh;
+    visibility: visible;
+}
+
+.header_menu--hidden,
+.header_menu--active,
+button:hover,
+.header__menuImage--mobile {
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
