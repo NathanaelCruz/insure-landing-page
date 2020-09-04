@@ -12,6 +12,10 @@
     font-size: 1.8rem;
 }
 
+.button__bannerInformativo {
+    width: 70%;
+}
+
 .header__menuButton--mobile:active,
 .header__menuButton--mobile:focus {
     border: 0;

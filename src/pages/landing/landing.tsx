@@ -6,6 +6,7 @@ import Card01Image from '../../assets/images/icon-snappy-process.svg'
 import Card02Image from '../../assets/images/icon-affordable-prices.svg'
 import Card03Image from '../../assets/images/icon-people-first.svg'
 import Card from '../../components/card'
+import BannerInformativo from '../../components/bannerInformativo'
 
 const Landing = () => {
     return (
@@ -31,6 +32,10 @@ const Landing = () => {
                     <img src={Card03Image} alt="Imagem do card"/>
                 </Card>
             </section>
+            <BannerInformativo 
+                text="Find out more about how we work"
+                titleButton="HOW WE WORK" 
+            />
         </main>
     )
 }

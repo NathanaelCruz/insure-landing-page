@@ -15,6 +15,7 @@ function App() {
         titleButton="VIEW PLANS"
       />
       <Landing />
+      
     </div>
   );
 }

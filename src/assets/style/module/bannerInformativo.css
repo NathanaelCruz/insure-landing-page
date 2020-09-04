@@ -1,0 +1,35 @@
+.bannerInformativo {
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.bannerInformativo__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: hsl(256, 26%, 20%);
+    height: 30rem;
+}
+
+.bannerInformativo__image {
+    position: absolute;
+    right: 0;
+    height: 94%;
+    top: 0;
+}
+
+.bannerInformativo__title {
+    font-size: 3.6rem;
+    color: hsl(0, 0%, 98%);
+    margin-bottom: 2.5rem;
+}
+
+.bannerInformativo__info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
