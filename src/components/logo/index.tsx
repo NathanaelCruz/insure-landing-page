@@ -1,9 +1,12 @@
 import React from 'react'
 import LogoSVG from '../../assets/images/logo.svg'
 
-const Logo = () => {
+interface LogoProps{
+    classText?: string
+}
+const Logo: React.FC<LogoProps> = (props) => {
     return (
-        <a href="/" className="link__logo">
+        <a href="/" className={`link__logo ${props.classText ? props.classText : ''}`}>
             <img src={LogoSVG} alt="Logo" />
         </a>
     )
