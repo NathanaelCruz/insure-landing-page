@@ -164,3 +164,45 @@
     color: hsl(256, 26%, 20%);
     font-weight: 700;
 }
+
+@media(min-width: 767px) {
+    .header__menuNavigation {
+        background-color: transparent;
+        flex-direction: row;
+        width: 100%;
+        position: static;
+        padding-top: 0;
+        justify-content: flex-end;
+    }
+    .header_imagemMobile {
+        display: none;
+    }
+    .header__linkList {
+        color: hsl(273, 4%, 51%);
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .header__menuList {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        margin: 0 2rem 0 0;
+    }
+    .header__menuListItem {
+        margin-bottom: 0;
+    }
+    .header__navigationContent {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 0.4rem 0;
+    }
+    .header__navigationContentLeft {
+        width: 50%;
+    }
+    .header__navigationContentRight {
+        width: 50%;
+    }
+}

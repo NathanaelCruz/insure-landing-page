@@ -84,3 +84,9 @@ footer {
     justify-content: center;
     background-color: hsl(0, 0%, 98%);
 }
+
+@media(min-width: 767px) {
+     :root {
+        font-size: 62.4%;
+    }
+}

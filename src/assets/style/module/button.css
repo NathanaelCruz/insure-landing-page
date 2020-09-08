@@ -20,3 +20,25 @@
 .header__menuButton--mobile:focus {
     border: 0;
 }
+
+@media(min-width: 767px) {
+    .header__menuButton--mobile {
+        display: none;
+    }
+    .header__button {
+        width: 25%;
+        margin: 0;
+        color: hsl(270, 9%, 17%);
+        font-size: 1.5rem;
+        border-color: hsl(270, 9%, 17%);
+        padding: 0.4rem 0.7rem;
+        -webkit-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in;
+    }
+    .button__banner {
+        width: 35%;
+        font-size: 1.3rem;
+        margin: 0;
+    }
+}

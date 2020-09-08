@@ -48,8 +48,8 @@ const Footer: React.FC<FooterProps> = (props) => {
             </section>
             <section className="footer__menu">
                 {props.menu.map((itemTop) => {
-                    return <section className="footer__menuContent"><p className="footer__menuTitle">{itemTop.item.text}</p><ul className="footer__menuItems">{itemTop.item.submenu.map((itemBody) => {
-                    return <li className="footer_menuItem"><a href={itemBody.itemSubmenu.linkText} className="footer__menuItemLink">{itemBody.itemSubmenu.textSub}</a></li>
+                    return <section className="footer__menuContent" key={itemTop.item.text}><p className="footer__menuTitle">{itemTop.item.text}</p><ul className="footer__menuItems">{itemTop.item.submenu.map((itemBody) => {
+                    return <li className="footer_menuItem" key={itemBody.itemSubmenu.textSub}><a href={itemBody.itemSubmenu.linkText} className="footer__menuItemLink">{itemBody.itemSubmenu.textSub}</a></li>
                     })}</ul></section>
                 })}
             </section>

@@ -17,6 +17,7 @@ const BannerTopHome: React.FC<BannerTopProps> = (props) => {
                     {props.children ? props.children : ""}
                 </section>
                 <section className="banner__text">
+                    <hr className="banner__lineDivision"/>
                     <section className="banner_textContent">
                         <h1 className="banner_textTitle">{props.title}</h1>
                         <p className="banner__textBody">{props.bodyBannerText}</p>

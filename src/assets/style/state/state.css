@@ -15,8 +15,30 @@ button:hover {
 .header_menu--hidden,
 .header_menu--active,
 button:hover,
-.header__menuImage--mobile {
+.header__menuImage--mobile,
+.header__linkList:hover,
+.button__default.header__button:hover,
+.button__banner {
     -webkit-transition: 0.2s ease-in;
     -o-transition: 0.2s ease-in;
     transition: 0.2s ease-in;
+}
+
+@media(min-width: 767px) {
+    .header_menu--hidden,
+    .header_menu--active {
+        height: auto;
+        visibility: visible;
+    }
+    .header__linkList:hover {
+        color: hsl(270, 9%, 17%);
+    }
+    .button__default.header__button:hover {
+        color: hsl(0, 0%, 98%);
+        background-color: hsl(270, 9%, 17%);
+    }
+    .button__banner:hover {
+        color: hsl(270, 9%, 17%);
+        background-color: hsl(0, 0%, 98%);
+    }
 }
