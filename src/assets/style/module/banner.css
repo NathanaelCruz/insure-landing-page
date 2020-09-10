@@ -66,6 +66,10 @@
     margin-top: -33%;
 }
 
+.banner__image {
+    width: 100%;
+}
+
 .banner__lineDivision,
 .banner__imageLeft--desktop,
 .banner__imageRight--desktop {
