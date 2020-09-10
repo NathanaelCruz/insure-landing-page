@@ -217,6 +217,7 @@
     }
     .header__navigationContentLeft {
         width: 50%;
+        padding-left: 0;
     }
     .header__navigationContentRight {
         width: 50%;
