@@ -12,6 +12,7 @@ body,
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body,
@@ -92,7 +93,6 @@ footer {
     body,
     html {
         width: 99vw;
-        overflow-x: hidden;
     }
     main {
         margin-top: 10vh;
