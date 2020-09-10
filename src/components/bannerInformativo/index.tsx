@@ -1,5 +1,6 @@
 import React from 'react'
 import BannerInformativoImage from '../../assets/images/bg-pattern-how-we-work-mobile.svg'
+import BannerInformativoImageDesktop from '../../assets/images/bg-pattern-how-we-work-desktop.svg'
 import Button from '../button'
 
 interface BannerInformativoProps {
@@ -16,6 +17,7 @@ const BannerInformativo: React.FC<BannerInformativoProps> = (props) => {
                     <Button text={props.titleButton} classButton="button__default button__banner button__bannerInformativo"/>
                 </section>
                 <img src={BannerInformativoImage} alt="Banner Informativo" className="bannerInformativo__image"/>
+                <img src={BannerInformativoImageDesktop} alt="Banner Informativo" className="bannerInformativo__image--desktop"/>
             </section>
         </section>
     )

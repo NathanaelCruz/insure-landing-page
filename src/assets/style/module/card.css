@@ -20,3 +20,13 @@
     text-align: center;
     color: hsl(273, 4%, 51%);
 }
+
+@media(min-width: 767px) {
+    .card {
+        padding: 3rem 1rem;
+        align-items: flex-start;
+    }
+    .card__text {
+        text-align: left;
+    }
+}

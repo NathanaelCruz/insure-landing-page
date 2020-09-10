@@ -34,3 +34,38 @@
     flex-direction: column;
     z-index: 2;
 }
+
+.bannerInformativo__image--desktop {
+    display: none
+}
+
+@media(min-width: 767px) {
+    .bannerInformativo {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .bannerInformativo__image {
+        display: none;
+    }
+    .bannerInformativo__image--desktop {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .bannerInformativo__content {
+        height: 25rem;
+    }
+    .bannerInformativo__info {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bannerInformativo__title {
+        text-align: left;
+        width: 42%;
+    }
+    .button__bannerInformativo {
+        height: 50px;
+        width: 25%;
+    }
+}

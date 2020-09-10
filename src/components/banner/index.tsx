@@ -2,6 +2,8 @@ import React from 'react'
 import Button from '../button'
 import ImageBannerTopMobile from '../../assets/images/bg-pattern-intro-left-mobile.svg'
 import ImageBannerBottomMobile from '../../assets/images/bg-pattern-intro-right-mobile.svg'
+import ImageBannerLeftMobile from '../../assets/images/bg-pattern-intro-left-desktop.svg'
+import ImageBannerRightMobile from '../../assets/images/bg-pattern-intro-right-desktop.svg'
 
 interface BannerTopProps {
     title: string,
@@ -13,6 +15,7 @@ const BannerTopHome: React.FC<BannerTopProps> = (props) => {
     return (
         <section className="banner">
             <section className="banner__content">
+                <img src={ImageBannerLeftMobile} alt="Imagem ilustrativa de linhas" className="banner__imageLeft--desktop"/>
                 <section className="banner__image">
                     {props.children ? props.children : ""}
                 </section>
@@ -27,6 +30,7 @@ const BannerTopHome: React.FC<BannerTopProps> = (props) => {
                         <img src={ImageBannerTopMobile} alt="Imagem ilustrativa banner" className="banner_imageIllustrate"/>
                     </section>
                 </section>
+                <img src={ImageBannerRightMobile} alt="Imagem ilustrativa de linhas" className="banner__imageRight--desktop"/>
             </section>
             <section className="banner_imageContentIllustratebottom--mobile">
                 <img src={ImageBannerBottomMobile} alt="Imagem ilustrativa banner" className="banner_imageIllustrate"/>

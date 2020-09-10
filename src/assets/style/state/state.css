@@ -41,4 +41,7 @@ button:hover,
         color: hsl(270, 9%, 17%);
         background-color: hsl(0, 0%, 98%);
     }
+    .footer__menuItemLink:hover {
+        text-decoration: underline;
+    }
 }

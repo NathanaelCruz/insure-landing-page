@@ -41,4 +41,8 @@
         font-size: 1.3rem;
         margin: 0;
     }
+    .button__bannerInformativo {
+        height: 50px;
+        width: 25%;
+    }
 }

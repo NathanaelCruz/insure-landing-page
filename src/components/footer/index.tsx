@@ -28,20 +28,22 @@ const Footer: React.FC<FooterProps> = (props) => {
     return (
         <footer className="footer">
             <section className="footer__redesSociais">
-                <Logo classText="footer__logo" />
-                <section className="footer__redesSociaisContent">
-                    <SocialMedia linkSM="https://www.facebook.com/">
-                        <img src={FooterImageFacebook} alt="Icone Facebook" className="socialmedia__image"/>
-                    </SocialMedia>
-                    <SocialMedia linkSM="https://twitter.com/">
-                        <img src={FooterImageTwitter} alt="Icone Twitter" className="socialmedia__image"/>
-                    </SocialMedia>
-                    <SocialMedia linkSM="https://br.pinterest.com/">
-                        <img src={FooterImagePinterest} alt="Icone Pinterest" className="socialmedia__image"/>
-                    </SocialMedia>
-                    <SocialMedia linkSM="https://www.instagram.com/">
-                        <img src={FooterImageInstagram} alt="Icone Instagram" className="socialmedia__image"/>
-                    </SocialMedia>
+                <section className="footer__redesSociaisTop">
+                    <Logo classText="footer__logo" />
+                    <section className="footer__redesSociaisContent">
+                        <SocialMedia linkSM="https://www.facebook.com/">
+                            <img src={FooterImageFacebook} alt="Icone Facebook" className="socialmedia__image"/>
+                        </SocialMedia>
+                        <SocialMedia linkSM="https://twitter.com/">
+                            <img src={FooterImageTwitter} alt="Icone Twitter" className="socialmedia__image"/>
+                        </SocialMedia>
+                        <SocialMedia linkSM="https://br.pinterest.com/">
+                            <img src={FooterImagePinterest} alt="Icone Pinterest" className="socialmedia__image"/>
+                        </SocialMedia>
+                        <SocialMedia linkSM="https://www.instagram.com/">
+                            <img src={FooterImageInstagram} alt="Icone Instagram" className="socialmedia__image"/>
+                        </SocialMedia>
+                    </section>
                 </section>
                 <img src={FooterImageTop} alt="Imagem do Footer" className="footer__imageTop"/>
                 <hr className="footer__division" />

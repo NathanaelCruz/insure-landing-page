@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     z-index: 5;
+    box-shadow: 0 0 10px 0px hsl(270, 9%, 17%);
 }
 
 .header__navigationContent {
@@ -79,6 +80,13 @@
     padding: 3rem 3rem;
     margin-top: 8rem;
     margin-bottom: 5rem;
+}
+
+.cards_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards__title {
@@ -165,6 +173,13 @@
     font-weight: 700;
 }
 
+.footer__redesSociaisTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @media(min-width: 767px) {
     .header__menuNavigation {
         background-color: transparent;
@@ -204,5 +219,43 @@
     }
     .header__navigationContentRight {
         width: 50%;
+    }
+    .cards {
+        align-items: flex-start;
+        margin: 20rem auto 5rem auto;
+        width: 80%;
+        max-width: 1000px;
+    }
+    .cards_content {
+        flex-direction: row;
+    }
+    .cards__line {
+        width: 20%;
+    }
+    .footer__imageTop {
+        display: none;
+    }
+    .footer__redesSociaisTop {
+        width: 100%;
+        max-width: 1000px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__redesSociaisContent {
+        margin: 0;
+    }
+    .footer__menu {
+        display: flex;
+        width: 100%;
+        max-width: 1000px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__menuContent {
+        width: 25%;
+    }
+    .footer__menuContent,
+    .footer__menuItems {
+        align-items: flex-start;
     }
 }

@@ -22,15 +22,17 @@ const Landing = () => {
             <section className="cards">
                 <hr className="cards__line"/>
                 <h2 className="cards__title">We're different</h2>
-                <Card title="Snappy Process" text="Our application process can be completed in minutes, not hours. Don't get suck filling in tedious forms.">
-                    <img src={Card01Image} alt="Imagem do card"/>
-                </Card>
-                <Card title="Affordable Prices" text="We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.">
-                    <img src={Card02Image} alt="Imagem do card"/>
-                </Card>
-                <Card title="People First" text="Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.">
-                    <img src={Card03Image} alt="Imagem do card"/>
-                </Card>
+                <section className="cards_content">
+                    <Card title="Snappy Process" text="Our application process can be completed in minutes, not hours. Don't get suck filling in tedious forms.">
+                        <img src={Card01Image} alt="Imagem do card"/>
+                    </Card>
+                    <Card title="Affordable Prices" text="We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.">
+                        <img src={Card02Image} alt="Imagem do card"/>
+                    </Card>
+                    <Card title="People First" text="Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.">
+                        <img src={Card03Image} alt="Imagem do card"/>
+                    </Card>
+                </section>
             </section>
             <BannerInformativo 
                 text="Find out more about how we work"
