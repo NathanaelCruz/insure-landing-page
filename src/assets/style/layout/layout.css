@@ -145,6 +145,7 @@
 
 .footer__menu {
     padding-bottom: 8rem;
+    z-index: 1;
 }
 
 .footer__menuContent {
